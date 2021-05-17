@@ -1,4 +1,3 @@
-
 from operators.create_table import CreateTableOperator
 from operators.stage_redshift import StageToRedshiftOperator
 from operators.load_fact import LoadFactOperator

@@ -2,8 +2,8 @@ from airflow.hooks.postgres_hook import PostgresHook
 from airflow.models import BaseOperator
 from airflow.utils.decorators import apply_defaults
 
-
 class CreateTableOperator(BaseOperator):
+
     ui_color = '#358140'
 
     @apply_defaults
@@ -21,3 +21,4 @@ class CreateTableOperator(BaseOperator):
         redshift.run(queries)
 
         self.log.info("Tables created ")
+        
