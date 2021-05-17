@@ -126,7 +126,7 @@ load_artist_dimension_table = SubDagOperator(
 
 
 load_time_dimension_table = SubDagOperator(
-    subdag=load_dimension_subdag(
+    subdag=dimension_subdag(
         parent_dag_name=dag_name,
         task_id="Load_time_dim_table",
         redshift_conn_id="redshift",
