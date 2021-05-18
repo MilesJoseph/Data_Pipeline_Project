@@ -11,4 +11,17 @@
 The structure of the project is as follows;
 
     * dags
-      ** sparkify_dimension_subdag.py
+      ** udac_example.py
+      ** dimension_subdag.py
+
+    * plugins
+      ** helpers
+        *** sql_queries.py
+    * operators
+      ** __init__.py
+      ** create_table.py
+      ** data_quality.py
+      ** load_dimension.py
+      ** load_fact.py
+      ** stage_redshift.py
+      
