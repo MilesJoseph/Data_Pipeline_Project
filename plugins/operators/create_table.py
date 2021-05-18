@@ -7,7 +7,9 @@ class CreateTableOperator(BaseOperator):
     ui_color = '#358140'
 
     @apply_defaults
-    def __init__(self, redshift_conn_id = "", *args, **kwargs):
+    def __init__(self,
+    redshift_conn_id = "",
+    *args, **kwargs):
 
         super(CreateTableOperator, self).__init__(*args, **kwargs)
         self.redshift_conn_id = redshift_conn_id
@@ -21,4 +23,3 @@ class CreateTableOperator(BaseOperator):
         redshift.run(queries)
 
         self.log.info("Tables created ")
-        
