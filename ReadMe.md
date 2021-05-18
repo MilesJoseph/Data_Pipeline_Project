@@ -17,6 +17,7 @@ The structure of the project is as follows;
     * plugins
       ** helpers
         *** sql_queries.py
+        
     * operators
       ** __init__.py
       ** create_table.py
@@ -24,4 +25,3 @@ The structure of the project is as follows;
       ** load_dimension.py
       ** load_fact.py
       ** stage_redshift.py
-      
