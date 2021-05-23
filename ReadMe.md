@@ -27,4 +27,6 @@ The structure of the project is as follows;
 
 ## Dags
 
-  The Dag does a number of things in sequence in order to insert json files from an s3 bucket to a redshift cluster (sql database).
+  The Dag does a number of things in sequence in order to insert json files from an s3 bucket to a redshift cluster (sql database). The task sequence looks as such;
+
+  ![image info](./Users/MilesKlingenberg/Documents/Udacity/Notes/Airflow/Screen Shot 2021-05-23 at 3.44.32 PM)
