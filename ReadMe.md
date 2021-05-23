@@ -29,4 +29,4 @@ The structure of the project is as follows;
 
   The Dag does a number of things in sequence in order to insert json files from an s3 bucket to a redshift cluster (sql database). The task sequence looks as such;
 
-![](ReadMe-bb9b5.png)
+![](assets/ReadMe-bb9b542d.png)![](ReadMe-bb9b5.png)
